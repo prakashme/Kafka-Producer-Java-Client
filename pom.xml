@@ -8,29 +8,6 @@
 	<name>Kafka</name>
 	<description>this is kafka plugin
 </description>
-	<url>https://github.com/mariamhakobyan/elasticsearch-river-kafka</url>
-
-	<licenses>
-		<license>
-			<name>Apache License 2.0</name>
-			<url>http://www.apache.org/licenses/LICENSE-2.0</url>
-		</license>
-	</licenses>
-
-	<scm>
-		<connection>scm:git@github.com:mariamhakobyan/elasticsearch-river-kafka.git</connection>
-		<developerConnection>scm:git:git@github.com:mariamhakobyan/elasticsearch-river-kafka.git</developerConnection>
-		<url>git@github.com:mariamhakobyan/elasticsearch-river-kafka.git</url>
-		<tag>HEAD</tag>
-	</scm>
-
-	<developers>
-		<developer>
-			<name>Mariam Hakobyan</name>
-			<email>mariam.hak@gmail.com</email>
-			<organizationUrl>http://www.mariam-hakobyan.com</organizationUrl>
-		</developer>
-	</developers>
 
 	<parent>
 		<groupId>org.sonatype.oss</groupId>
@@ -38,31 +15,6 @@
 		<version>7</version>
 	</parent>
 
-
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-		<skipSigning>true</skipSigning>
-
-		<!--Dependency versions -->
-		<version.elasticsearch>1.6.0</version.elasticsearch>
-		<version.kafka>0.8.2.1</version.kafka>
-		<version.scala>2.11.2</version.scala>
-		<version.slf4j>1.7.2</version.slf4j>
-		<version.yammer.metrics.core>2.2.0</version.yammer.metrics.core>
-		<version.yammer.metrics.graphite>2.2.0</version.yammer.metrics.graphite>
-		<version.json>20131018</version.json>
-
-		<!--Plugin versions -->
-		<version.maven.compiler.plugin>3.0</version.maven.compiler.plugin>
-		<version.maven.surefire.plugin>2.16</version.maven.surefire.plugin>
-		<version.maven.failsafe.plugin>2.14</version.maven.failsafe.plugin>
-		<version.maven.javadoc.plugin>2.9.1</version.maven.javadoc.plugin>
-		<version.maven.source.plugin>2.2.1</version.maven.source.plugin>
-		<version.maven.gpg.plugin>1.4</version.maven.gpg.plugin>
-		<version.maven.release.plugin>2.4.2</version.maven.release.plugin>
-		<version.maven.assembly.plugin>2.3</version.maven.assembly.plugin>
-	</properties>
 
 	<dependencies>
 		<!-- Elasticsearch dependencies -->
